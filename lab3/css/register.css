@@ -1,0 +1,41 @@
+nav ul {
+     list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;;
+}
+
+nav li {
+    float: left;
+}
+nav li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+nav li a:hover {
+    background-color: #555;
+    color:white;
+}
+h1,section{
+text-align:center;}
+.content{
+margin-right:200px;
+margin-left:200px;
+border-width: 1px 1px 1px 1px;
+	border-style: solid;
+	border-color:#eeeeee;
+	border-radius:2px 2px 0px 0px;
+}
+body{
+background-image:url('../images/background.png');
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+}
+.register2{
+cursor:pointer;}

@@ -1,0 +1,82 @@
+ nav ul {
+     list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #f1f1f1;
+}
+
+nav li {
+    float: left;
+}
+nav li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+.logo img{margin-top:-10px;
+margin-left:-10px;
+}
+.logo{
+background-color:white;}
+.li1 a{
+margin-left:30px
+}
+.li2 a{
+margin-left:900px;}
+/*鼠标移动到选项上修改背景颜色 */
+nav li a:hover {
+    background-color: #555;
+    color:white;
+}
+.sidebar{
+margin-top:20px;
+float:left;
+}
+.tab{
+	font-size:15px;
+	height:27px;
+	width:175px;
+	background: #eeeeee;
+	line-height: 27px; /*把line-height高度设置和height一样就可以让字体垂直居中*/
+	border-width: 1px 1px 1px 1px;
+	border-style: solid;
+	border-color: #efefef;
+	border-radius:2px 2px 0px 0px;
+}
+.reorder{
+	margin-left:10px;
+}
+.navto-nav{
+	font-size:15px;
+	height:45px;
+	width:175px;
+	background: #fbfbfb;
+	line-height: 45px; /*把line-height高度设置和height一样就可以让字体垂直居中*/
+	border-width: 0px 1px 1px 1px;
+	border-style: solid;
+	border-color: #efefef;
+}
+.imooc-icon{
+	margin-left:10px;
+}
+.browser1:hover{
+background-color:#eeeeee;
+}
+.section{
+float:left;}
+.section p{
+background-color:#eeeeee;
+}
+.section1{
+border-width: 1px 1px 1px 1px;
+	border-style: solid;
+	border-color:#84AF9B;
+	border-radius:2px 2px 0px 0px;
+}
+.foot{
+letter-spacing:20px;
+text-align:center;}
+
